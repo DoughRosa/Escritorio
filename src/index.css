@@ -1,0 +1,567 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  font-family: serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  margin: 0;
+  padding: 0;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-align: justify;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: azure;
+  text-decoration: inherit;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 2em;
+  color: rgb(245, 177, 6);
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #c22430;
+  color: aliceblue;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  height: 60px;
+}
+button:hover {
+  background-color: green;
+  border-color: #c22430;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.whats {
+  height: 40px;
+  color: aliceblue;
+  margin-right: 15px;
+}
+
+.telefone {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.email {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.header {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.links {
+  display: flex;
+  margin-left: 885px;
+  font-size: x-large;
+}
+
+.logo {
+  height: 100px;
+  margin-right: 40px;
+}
+
+.navigation {
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.navigation:hover {
+  background-color: #c22430;
+}
+
+.rowHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.colTexto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotoHome {
+  margin-right: 50px;
+  height: 600px;
+}
+
+.divBotaoWhats {
+  position: fixed;
+  bottom: 40px;
+  right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+}
+
+.botaoWhats{
+  background-color: green;
+}
+
+.botaoWhats:hover{
+  background-color: rgb(0, 71, 0);
+}
+
+.containerSobre{
+  display: flex;
+  justify-content: center;
+}
+
+.textoSobre{
+  width: 600px;
+}
+
+.cursos{
+  display: flex;
+  align-items: center;
+}
+
+.arrow{
+  height: 20px;
+  margin-right: 15px
+}
+
+.fotoSobre{
+  margin-left: 40px;
+  height: 640px;
+}
+
+.containerPenal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rowPenal{
+  display: flex;
+  justify-content: center;
+}
+
+.divFotos{
+  width: 1050px;
+}
+
+.fotoPenal{
+  margin: 40px 0px 40px 40px;
+  border-radius: 10px;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: solid 1px;
+  border-color: #c22430;
+  width: 600px;
+  margin: 30px;
+}
+
+.cardImg{
+  margin-right: 10px;
+}
+
+.cardImg:hover{
+  scale: 1.2;
+}
+
+.barraLateral{
+  display: none;
+}
+
+.barraLateralAtiva{
+ display: block;
+}
+
+@media screen and (max-width: 2560px) {
+    h1 {
+      font-size: 5em;
+      line-height: 1.1;
+    }
+    
+    h2 {
+      font-size: 3em;
+      color: rgb(245, 177, 6);
+    }
+    
+    h3 {
+      font-size: 2.5em;
+    }
+    
+    p {
+      font-size: 1.8em;
+    }
+
+    button{
+      height: 80px;
+    }
+
+    .fotoHome{
+      height: 775px;
+    }
+
+    .colTexto{
+      width: 1200px;
+    }
+
+    .divBotaoWhats{
+      right: 250px;
+      bottom: 60px;
+      width: 350px;
+    }
+
+    .botaoWhats{
+      height: 80px;
+    }
+
+    .whats{
+      height: 60px;
+    }
+
+    .links{
+      font-size: xx-large;
+      margin-left: 950px;
+    }
+  }
+
+  @media screen and (max-width: 1920px) {
+    h1 {
+      font-size: 4em;
+    }
+    
+    h2 {
+      font-size: 2em;
+      color: rgb(245, 177, 6);
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+
+    .fotoHome{
+      height: 570px;
+    }
+
+    .colTexto{
+      width: 1000px;
+    }
+
+    .divBotaoWhats{
+      bottom: 50px;
+    }
+
+    .links{
+      margin-left: 780px;
+    }
+  }
+
+  @media screen and (max-width: 1600px) {
+    h1 {
+      font-size: 3em;
+    }
+
+    .colTexto{
+      width: 800px;
+    }
+
+    .divBotaoWhats{
+      right: 100px;
+    }
+
+    .links{
+      font-size: x-large;
+      margin-left: 745px;
+    }
+  }
+
+  @media screen and (max-width: 1440px) {
+    h1 {
+      font-size: 2.9em;
+    }
+    
+    h2 {
+      font-size: 1.9em;
+    }
+    
+    h3 {
+      font-size: 2.4em;
+    }
+  
+    .fotoHome{
+      height: 550px;
+    }
+
+    .colTexto{
+      width: 680px;
+    }
+
+    .divBotaoWhats{
+      right: 75px;
+    }
+
+    .links{
+      margin-left: 605px;
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+    h1 {
+      font-size: 2.7em;
+    }
+    
+    h2 {
+      font-size: 1.7em;
+    }
+    
+    h3 {
+      font-size: 2.2em;
+    }
+    
+    p {
+      font-size: 1.3em;
+    }
+
+    .fotoHome{
+      height: 500px;
+    }
+
+    .divBotaoWhats{
+      right: 40px;
+      bottom: 35px;
+      width: 300px;
+    }
+
+    .links{
+      margin-left: 550px;
+    }
+
+    .whats{
+      height: 45px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    h1 {
+      font-size: 1.8em;
+    }
+    
+    h2 {
+      font-size: 1.2em;
+    }
+    
+    h3 {
+      font-size: 1.5em;
+    }
+    
+    p {
+      font-size: 1em;
+    }
+
+    .fotoHome{
+      height: 300px;
+    }
+
+    .colTexto{
+      width: 600px;
+    }
+
+    .divBotaoWhats{
+      bottom: 15px;
+      width: 200px;
+    }
+
+    .botaoWhats{
+      height: 60px;
+    }
+
+    .logo{
+      height: 80px;
+    }
+
+    .links{
+      font-size: large;
+      margin-left: 390px;
+    }
+
+    .whats{
+      height: 40px;
+    }
+  }
+
+  @media screen and (max-width: 834px) {         
+    button{
+      height: 60px;
+    }
+
+    .divBotaoWhats{
+      right: 20px;
+    }
+
+    .botaoWhats{
+      height: 50px;
+    }
+
+    .links{
+      margin-left: 215px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 1.6em;
+      line-height: 1.1;
+    }
+    
+    h2 {
+      font-size: 1em;
+      color: rgb(245, 177, 6);
+    }
+    
+    h3 {
+      font-size: 1.2em;
+    }
+    
+    p {
+      font-size: 0.8em;
+    }
+
+    button{
+      height: 50px;
+      width: 300px;
+    }
+
+    .divBotaoWhats{
+      bottom: 10px;
+    }
+
+    .links{
+      margin-left: 171px;
+    }
+  }
+
+  @media screen and (min-width: 481px) {
+    .logoCelular{
+      display: none;
+    }
+
+    .menuCelular{
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .header{
+      display: flex;
+      justify-content: start;
+    }
+
+    .logoCelular{
+      height: 100px;
+    }
+
+    .fotoHome{
+      display: none;
+    }
+
+    .divBotaoWhats{
+      bottom: 5px;
+    }
+
+    .botaoWhats{
+      height: 35px;
+      width: 145px;
+    }
+
+    .logo{
+      display: none;
+    }
+
+    .links{
+      display: none;
+    }
+
+    .botaoMenuCelular{
+      display: flex;
+      justify-content: center;
+      width: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    h1{
+      font-size: 1.4em;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    h1{
+      font-size: 1.3em;
+    }
+  }
