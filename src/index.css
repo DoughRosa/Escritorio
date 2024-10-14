@@ -145,6 +145,13 @@ button:focus-visible {
   align-items: center;
 }
 
+.textoSobre{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
 .fotoHome {
   margin-right: 50px;
   height: 600px;
@@ -198,6 +205,7 @@ button:focus-visible {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px;
 }
 
 .rowPenal{
@@ -339,6 +347,14 @@ button:focus-visible {
       font-size: x-large;
       margin-left: 745px;
     }
+
+    .divFotos{
+      width: 800px;
+    }
+
+    .fotoPenal{
+      height: 600px;
+    }
   }
 
   @media screen and (max-width: 1440px) {
@@ -405,6 +421,18 @@ button:focus-visible {
     .whats{
       height: 45px;
     }
+
+    .textoSobre{
+      width: 500px;
+    }
+
+    .divFotos{
+      width: 600px;
+    }
+
+    .fotoPenal{
+      height: 400px;
+    }
   }
 
   @media screen and (max-width: 1024px) {
@@ -453,6 +481,26 @@ button:focus-visible {
     .whats{
       height: 40px;
     }
+
+    .textoSobre{
+      width: 400px;
+    }
+
+    .fotoSobre{
+      height: 400px;
+    }
+
+    .divFotos{
+      width: 400px;
+    }
+
+    .fotoPenal{
+      height: 300px;
+    }
+
+    .card{
+      width: 400px;
+    }
   }
 
   @media screen and (max-width: 834px) {         
@@ -470,6 +518,26 @@ button:focus-visible {
 
     .links{
       margin-left: 215px;
+    }
+
+    .textoSobre{
+      width: 350px;
+    }
+
+    .fotoSobre{
+      height: 350px;
+    }
+
+    .divFotos{
+      width: 350px;
+    }
+
+    .fotoPenal{
+      height: 250px;
+    }
+
+    .card{
+      width: 350px;
     }
   }
 
@@ -504,6 +572,10 @@ button:focus-visible {
     .links{
       margin-left: 171px;
     }
+
+    .textoSobre{
+      width: 300px;
+    }
   }
 
   @media screen and (min-width: 481px) {
@@ -530,6 +602,10 @@ button:focus-visible {
       display: none;
     }
 
+    .fotoSobre{
+      display: none;
+    }
+
     .divBotaoWhats{
       bottom: 5px;
     }
@@ -552,11 +628,19 @@ button:focus-visible {
       justify-content: center;
       width: 60px;
     }
+
+    .divFotos{
+      display: none;
+    }
   }
   
   @media screen and (max-width: 375px) {
     h1{
       font-size: 1.4em;
+    }
+
+    .card{
+      width: 250px;
     }
   }
 

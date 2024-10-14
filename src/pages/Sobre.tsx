@@ -1,5 +1,6 @@
 import PageDefault from "../components/PageDefault";
 import fotoSobre from "../assets/imagens/fotoSobre.png";
+import logo from "../assets/imagens/logo.png";
 
 function goToWhats() {
   window.open("https://api.whatsapp.com/send?phone=555199592443");
@@ -10,6 +11,7 @@ function Sobre() {
     <PageDefault>
       <div className="containerSobre">
         <div className="textoSobre">
+          <img className="logoCelular" src={logo} alt="" />
           <div>
             <h3>Olá, me chamo Douglas Rosa.</h3>
             <h3>

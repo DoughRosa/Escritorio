@@ -2,11 +2,13 @@ import PageDefault from "../components/PageDefault";
 import cardTransito from '../config/cardTransito';
 import fotoTransito from '../assets/imagens/fotoTransito.png';
 import fotoTransito2 from '../assets/imagens/fotoTransito2.png';
+import logo from '../assets/imagens/logo.png';
 
 function Transito() {
   return (
     <PageDefault>
       <div className="containerPenal">
+      <img className="logoCelular" src={logo} alt="" />
         <h1>SAIBA COMO POSSO TE AJUDAR</h1>
         <div className="rowPenal">
           <div className="cardPenal">

@@ -2,11 +2,13 @@ import PageDefault from "../components/PageDefault";
 import fotoPenal from "../assets/imagens/penal.png";
 import fotoPenal2 from '../assets/imagens/fotoPenal2.png'
 import cardPenal from "../config/cardsPenal";
+import logo from '../assets/imagens/logo.png';
 
 function Penal() {
   return (
     <PageDefault>
       <div className="containerPenal">
+      <img className="logoCelular" src={logo} alt="" />
         <h1>SAIBA COMO POSSO TE AJUDAR</h1>
         <div className="rowPenal">
           <div className="divFotos">
