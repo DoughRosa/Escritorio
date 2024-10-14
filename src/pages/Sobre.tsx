@@ -1,6 +1,7 @@
 import PageDefault from "../components/PageDefault";
 import fotoSobre from "../assets/imagens/fotoSobre.png";
 import logo from "../assets/imagens/logo.png";
+import circulo from "../assets/imagens/circulo.png"
 
 function goToWhats() {
   window.open("https://api.whatsapp.com/send?phone=555199592443");
@@ -20,100 +21,30 @@ function Sobre() {
             </h3>
           </div>
           <div className="cursos">
-            <svg
-              className="arrow"
-              xmlns="http://www.w3.org/2000/svg"
-              shape-rendering="geometricPrecision"
-              text-rendering="geometricPrecision"
-              image-rendering="optimizeQuality"
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              viewBox="0 0 299 511.517"
-            >
-              <path
-                fill="#fff"
-                d="M12.579 436.254c-36.893 64.703 15.581 96.095 51.926 60.146L273.92 295.723c33.44-33.439 33.44-46.49 0-79.93L64.505 15.117C28.16-20.832-24.314 10.56 12.579 75.262l97.261 180.496-97.261 180.496z"
-              />
-            </svg>
+            <img src={circulo} className="arrow" alt="" />
             <p>
               Pós Graduado em Direito Penal e Processo Penal pela Unirriter;
             </p>
           </div>
           <div className="cursos">
-            <svg
-              className="arrow"
-              xmlns="http://www.w3.org/2000/svg"
-              shape-rendering="geometricPrecision"
-              text-rendering="geometricPrecision"
-              image-rendering="optimizeQuality"
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              viewBox="0 0 299 511.517"
-            >
-              <path
-                fill="#fff"
-                d="M12.579 436.254c-36.893 64.703 15.581 96.095 51.926 60.146L273.92 295.723c33.44-33.439 33.44-46.49 0-79.93L64.505 15.117C28.16-20.832-24.314 10.56 12.579 75.262l97.261 180.496-97.261 180.496z"
-              />
-            </svg>
+          <img src={circulo} className="arrow" alt="" />
             <p>Pós Graduado em Direito de Trânsito pela Faculdade Legale;</p>
           </div>
           <div className="cursos">
-            <svg
-              className="arrow"
-              xmlns="http://www.w3.org/2000/svg"
-              shape-rendering="geometricPrecision"
-              text-rendering="geometricPrecision"
-              image-rendering="optimizeQuality"
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              viewBox="0 0 299 511.517"
-            >
-              <path
-                fill="#fff"
-                d="M12.579 436.254c-36.893 64.703 15.581 96.095 51.926 60.146L273.92 295.723c33.44-33.439 33.44-46.49 0-79.93L64.505 15.117C28.16-20.832-24.314 10.56 12.579 75.262l97.261 180.496-97.261 180.496z"
-              />
-            </svg>
+          <img src={circulo} className="arrow" alt="" />
             <p>
               Curso Completo do Tribunal do Júri na Escola de Criminalistas;
             </p>
           </div>
           <div className="cursos">
-            <svg
-              className="arrow"
-              xmlns="http://www.w3.org/2000/svg"
-              shape-rendering="geometricPrecision"
-              text-rendering="geometricPrecision"
-              image-rendering="optimizeQuality"
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              viewBox="0 0 299 511.517"
-            >
-              <path
-                fill="#fff"
-                d="M12.579 436.254c-36.893 64.703 15.581 96.095 51.926 60.146L273.92 295.723c33.44-33.439 33.44-46.49 0-79.93L64.505 15.117C28.16-20.832-24.314 10.56 12.579 75.262l97.261 180.496-97.261 180.496z"
-              />
-            </svg>
+          <img src={circulo} className="arrow" alt="" />
             <p>
               Curso de Especialização em Direito de Trânsito pelo Portal na
               Blitz;
             </p>
           </div>
           <div className="cursos">
-            <svg
-              className="arrow"
-              xmlns="http://www.w3.org/2000/svg"
-              shape-rendering="geometricPrecision"
-              text-rendering="geometricPrecision"
-              image-rendering="optimizeQuality"
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              viewBox="0 0 299 511.517"
-            >
-              <path
-                fill="#fff"
-                d="M12.579 436.254c-36.893 64.703 15.581 96.095 51.926 60.146L273.92 295.723c33.44-33.439 33.44-46.49 0-79.93L64.505 15.117C28.16-20.832-24.314 10.56 12.579 75.262l97.261 180.496-97.261 180.496z"
-              />
-            </svg>
+          <img src={circulo} className="arrow" alt="" />
             <p>
               Presidente da Comissão de Trânsito da OAB Guaíba, Eldorado do Sul
               e região;
