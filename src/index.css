@@ -580,7 +580,7 @@ button:focus-visible {
 
   @media screen and (min-width: 481px) {
     h1 {
-      font-size: 1.5em;
+      font-size: 1.4em;
       line-height: 1.1;
     }
 
@@ -612,7 +612,7 @@ button:focus-visible {
     }
 
     .divBotaoWhats{
-      bottom: 20px;
+      bottom: 25px;
     }
 
     .botaoWhats{
