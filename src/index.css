@@ -594,6 +594,10 @@ button:focus-visible {
       line-height: 1.1;
     }
 
+    .containerHome{
+      min-height: 500px;
+    }
+
     .header{
       display: flex;
       justify-content: start;
